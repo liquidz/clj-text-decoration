@@ -6,7 +6,7 @@ Text decoration library
 
 leiningen
 ```clojure
-[text-decoration "0.0.1"]
+[clj-text-decoration "0.0.1"]
 ```
 
 ```clojure
