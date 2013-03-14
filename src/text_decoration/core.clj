@@ -50,9 +50,3 @@
   (merge m (into {} (for [[key color-fn] (partition 2 kvs)]
                       [key (color-fn (get m key))]))))
 
-;(defn -main []
-;  (doseq [f [black red green yellow blue magenta cyan white
-;             bg-black bg-red bg-green bg-yellow bg-blue bg-magenta bg-cyan bg-white
-;             (comp red bg-blue) (comp bold cyan bg-blue)
-;             bold underline italic inverse strikethrough]]
-;    (println (f "The quick brown fox jumps over the lazy dog."))))
