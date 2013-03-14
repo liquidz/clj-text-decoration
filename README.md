@@ -6,7 +6,7 @@ Text decoration library
 
 leiningen
 ```clojure
-[clj-text-decoration "0.0.1"]
+[clj-text-decoration "0.0.2"]
 ```
 
 ```clojure
@@ -21,6 +21,6 @@ leiningen
 
 ## License
 
-Copyright (C) 2012 Masashi Iizuka([@uochan](http://twitter.com/uochan/))
+Copyright (C) 2013 Masashi Iizuka([@uochan](http://twitter.com/uochan/))
 
 Distributed under the Eclipse Public License, the same as Clojure.
