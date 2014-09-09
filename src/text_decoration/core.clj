@@ -37,7 +37,6 @@
 (defn inverse       [s] (str "\033[7m" s "\033[27m"))
 (defn strikethrough [s] (str "\033[9m" s "\033[29m"))
 
-
 ; =assoc-color
 (defn assoc-color
   "Associate color-function to hash-map
