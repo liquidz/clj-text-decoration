@@ -1,7 +1,9 @@
 # text-decoration
 
-Text decoration library
+Text decoration library for color and style in the terminal
 
+Uses [ANSII escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code#SGR_parameters) to set the color and style (such as bold) of the text
+that is going to be printed to the terminal, exposing these as nicely named functions such as `bold`.
 ## Usage
 
 leiningen
